@@ -67,10 +67,20 @@ Comparing high-risk customers served against high-risk customers not served:
 
 Two results stand out.
 
-**No DSL customer at high churn risk receives retention effort at all.** The
-exclusion is categorical rather than marginal: service tier alone determines
-it, because DSL customers cannot generate enough revenue to clear the
-threshold whatever their risk.
+**No DSL customer at high churn risk receives retention effort under any
+realistic budget.** Service tier alone determines it: DSL customers cannot
+generate enough revenue to clear the threshold whatever their risk. The
+exclusion is total up to a budget covering 15% of the base, and only breaks
+down once the budget passes roughly a fifth:
+
+| Budget | DSL among served high-risk |
+|---|---|
+| 5% | 0.0% |
+| 10% | 0.0% |
+| 15% | 0.0% |
+| 20% | 0.1% |
+| 30% | 5.3% |
+| 40% | 11.2% |
 
 **Customers who pay by mailed cheque are over-represented among the excluded by
 a factor of 3.6.** Payment method is not in any sense a measure of customer
